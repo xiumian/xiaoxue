@@ -1,0 +1,2 @@
+# Preserve the pinned upstream reference byte-for-byte for SHA-256 verification.
+third_party/ai-companion-kit/humanize.reference.mjs -text
