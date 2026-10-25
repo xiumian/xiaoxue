@@ -1,0 +1,38 @@
+{
+  "commit": "f9d4d54b5abbf7ccd926bd0bf4fc40f384868578",
+  "files": [
+    {
+      "sha256": "D40C2BAF370F6FE09FCCEBAFEFD4B7B3414A220BD3CC8F43E5B243E4E40A58BD",
+      "path": "LICENSE"
+    },
+    {
+      "sha256": "C9C8F56410702F4430857A8A0EEDA2C8BB906ED06B7653E6235A2A6F8923D384",
+      "path": "package.json"
+    },
+    {
+      "sha256": "191BE3AE33C289F733E0EA0F5CEC00DC6126F6A62762AD1251CC6028ADDB68B5",
+      "path": "packages/companion/src/humanize.js"
+    },
+    {
+      "sha256": "BF43F98831EF8F250AAF1645FABEB7C382C330344A6B3B4EC92A97CE3D1A2A9A",
+      "path": "packages/companion/src/role.js"
+    },
+    {
+      "sha256": "62660A35767122FB7593704DA690C04ED88BED912D41EC21A44BB29C37E89FCC",
+      "path": "packages/companion/src/brain.js"
+    },
+    {
+      "sha256": "A9A9C40DFF28BF00F7B185FBB34FDAEA50EF503D5865B1A1677A9F9B5F322421",
+      "path": "packages/companion/src/memory.js"
+    },
+    {
+      "sha256": "42F7115526738908E71C8AB4AA53F5ACD9B31622369D02445D42BFCFFBD18FEC",
+      "path": "packages/companion/src/index.js"
+    },
+    {
+      "sha256": "FA8B9C50A9C9C9636C57D95BCC33EB8662F2D6518136FEF3CF6633E508E7D838",
+      "path": "packages/companion/src/wake.js"
+    }
+  ],
+  "repository": "https://github.com/pinganbbOvO/ai-companion-kit"
+}
