@@ -207,7 +207,7 @@ class Bot:
             except DeliveryError:
                 logging.warning('OVERLOAD_NOTICE_UNCONFIRMED')
 
-        logging.info('ONEBOT_CONNECTED persona=xu_zhining_v2 merge_ms=%s split=%s', int(self.merge_window * 1000), self.split_enabled)
+        logging.info('ONEBOT_CONNECTED persona=xu_zhining_v3_trial merge_ms=%s split=%s', int(self.merge_window * 1000), self.split_enabled)
         try:
             async for raw in ws:
                 try:
@@ -254,7 +254,7 @@ async def main():
     bot = Bot(config())
     try:
         async with serve(bot.connection, '127.0.0.1', 6199, max_size=1024 * 1024):
-            logging.info('READY localhost:6199 persona=xu_zhining_v2; recent history persisted; merge_ms=%s split=%s', int(bot.merge_window * 1000), bot.split_enabled)
+            logging.info('READY localhost:6199 persona=xu_zhining_v3_trial; recent history persisted; merge_ms=%s split=%s', int(bot.merge_window * 1000), bot.split_enabled)
             await asyncio.Future()
     finally:
         await bot.close()
